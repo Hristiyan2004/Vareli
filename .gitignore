@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/DataAccess/obj
+/DataAccess/.vs
+/EmployeeManagerConsole/.vs
+/EmployeeManagerConsole/obj
+
+/.vs/EmployeeManager/FileContentIndex
