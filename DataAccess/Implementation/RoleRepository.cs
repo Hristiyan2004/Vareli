@@ -25,8 +25,9 @@ namespace DataAccess.Implementation
 
 		public void Delete(Role entity)
 		{
-			throw new NotImplementedException();
-		}
+            _context.Roles.Remove(entity);
+            _context.SaveChanges();
+        }
 
 		public void Edit(Role entity)
 		{
