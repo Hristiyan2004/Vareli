@@ -13,7 +13,7 @@ namespace DataAccess.Abstract
             IEnumerable<T> List();
             void Add(T entity);
             void Delete(T entity);
-            void Edit(T entity);
+            void Edit(Y entity);
 
 
         }
